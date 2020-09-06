@@ -1,0 +1,107 @@
+header{
+    color: #DC143C;
+}
+footer{
+    color: #DC143C;
+}
+body{
+    background-color: #000000;
+}
+article{
+    color: #DC143C;
+}
+img{
+    border-radius: 10px;
+}
+nav ul{
+    background-color: #000000;
+    border-style: solid;
+    border-color: #DC143C;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #DC143C;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.topDivider{
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #DC143C;
+    padding-bottom: 10px;
+}
+.stylishBox{
+    background-color: #000000;
+    color: #DC143C;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7FFFD4;
+    border-radius: 10px;
+}
+.someSpacing{
+    padding: 10px;
+    margin-top: 20px;
+}
+#myCoolText{
+    color: #DC143C;
+    border: 2px ridge #DC143C;
+    padding: 15px;
+    text-align: center;
+}
+#textAlign{
+    text-align: center;
+}
+#picture{
+    width: 100px;
+    border-radius: 100%;
+    animation-name: myFirstAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes myFirstAnimation{
+    from{
+        width: 05px;
+    }
+    to{
+        width: 100px;
+    }
+}
+@keyframes tinyPictureAnimation{
+    from{
+        width: 05px;
+        height: 05px;
+    }
+    to{
+        width: 60px;
+        height: 60px;
+    }
+}
+.tinyPicture{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    animation-name: tinyPictureAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.card:hover{
+    border-color: #DC143C;
+}
+
