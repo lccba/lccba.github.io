@@ -35,6 +35,20 @@ ul{
     margin-bottom: 10px;
 }
 
+#hire-link{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: lowercase;
+    font-size: 16px;
+}
+
+#hire-link:hover{
+    text-decoration: none;
+    color: #cccccc;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
 /* Header **/
 header{
     background: #000000;
@@ -83,7 +97,7 @@ header a:hover{
 /* Showcase */
 #showcase{
     min-height: 400px;
-    background: url('showcase3.jpeg') no-repeat -600px -150px;
+    background: url('./Images/showcase3.jpeg') no-repeat -600px -150px;
     text-align: center;
     color: #ffffff;
 }
@@ -218,8 +232,3 @@ footer{
         margin-bottom: 5px;
     }
 }
-
-
-
-
-
