@@ -11,7 +11,7 @@ $emailadd = 'lyleandthecoop@gmail.com';
 $url = 'https://lccba.github.io/contact-us.html';
 
 // Makes all fields required. If set to '1' no field can not be empty. If set to '0' any or all fields can be empty.
-$req = '1';
+$req = '4';
 
 // --------------------------Do not edit below this line--------------------------
 $text = "Results from form:\n\n";
