@@ -231,4 +231,8 @@ footer{
         width: 100%;
         margin-bottom: 5px;
     }
+    
+    #showcase{
+        background: url('./Images/showcase3.jpeg') no-repeat -1300px -75px;
+    }
 }
