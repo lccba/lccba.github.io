@@ -1,3 +1,19 @@
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("schumacherl@peetzschool.org", "Newsletter Subscribers",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -45,8 +61,8 @@
             	<h1>
                     Subscribe To Our Newsletter
                 </h1>
-                <form>
-                    <input type="email" placeholder="Enter Email...">
+                <form method="post" action="index.php">
+                    <input type="email" placeholder="Enter Email..." name="message">
                     <button type="submit" class="button1">Subscribe</button>
                 </form>
             </div>
