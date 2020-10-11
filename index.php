@@ -35,7 +35,7 @@ $_POST["insert your message here"]. "From: an@email.address");
                 </div>
                 <nav>
                 	<ul>
-                       <li class="current"><a href="index.html">Home</a></li>
+                       <li class="current"><a href="index.php">Home</a></li>
                        <li><a href="about.html">About</a></li>
                        <li><a href="our-selection.html">Our Selection</a></li>
                        <li><a href="hiring.html">Want a Job?</a></li>
