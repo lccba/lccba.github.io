@@ -173,11 +173,12 @@ article#main-col{
 
 /* Services/Contact Us */
 ul#contact-us li{
-	list-style: none;
+    list-style: none;
     padding: 20px;
     border: #000000 solid 1px;
     margin-bottom: 5px;
     background: #DC143C;
+    resize: none;
 }
 
 
