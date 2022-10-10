@@ -123,6 +123,16 @@ header a:hover{
     float: left;
 }
 
+#newsletter a{
+    float: right;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#newsletter :hover{
+    text-decoration: underline;
+}
+
 #newsletter form{
     float: right;
     margin-top: 15px;
