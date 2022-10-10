@@ -127,8 +127,9 @@ header a:hover{
     float: right;
     color: #ffffff;
     text-decoration: none;
+    align-items: center;
+    padding: 10px;
 }
-
 #newsletter :hover{
     text-decoration: underline;
 }
